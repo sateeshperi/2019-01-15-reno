@@ -46,7 +46,13 @@ eventbrite: "52275514471"    # optional: alphanumeric key for Eventbrite registr
 </iframe>
 {% endif %}
 
-<h4>This is the official website for upcoming Data Carpentry Genomics Workshop at UNR (January 15-16th, 2019)</h4>
+<h4>This is the official website for upcoming Data Carpentry Genomics Workshop at UNR (January 15-16th, 2019). The target audience is learners (both under-graduate and graduate students) who have little to no prior computational experience, and the instructors put a priority on creating a friendly environment to empower researchers and enable data-driven discovery. Even those with some experience will benefit, as the goal is to teach not only how to do analyses, but how to manage the process to make it as automated and reproducible as possible. For instance, some of the topics that will be discussed in addition to the prescribed syllabus:
+
+    Project version control using Github
+    Cloud computing 
+    Data Documentation & Reproducibility 
+
+Space is limited and it will likely fill quickly. Lunch, snacks and coffee will be provided for both the days of the workshop. This workshop is supported by funding from UNR Libraries and NV-INBRE grants.</h4>
 
 <h2 id="general">General Information</h2>
 
