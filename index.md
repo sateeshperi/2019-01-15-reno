@@ -118,6 +118,13 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
 </p>
 
 {% comment %}
+  Food
+{% endcomment %}
+<p id="howtoapply">
+  <strong>How To Apply:</strong> Space is limited for this workshop. Please use this <a href="http://unr.libsurveys.com/datacarpentryapp">link</a> to submit your application. Applications are due by Friday, December 21, 2019. Shortly after you’ve applied, we will notify you as to whether you’ve been accepted.
+</p>
+
+{% comment %}
   SPECIAL REQUIREMENTS
 
   Modify the block below if there are any special requirements.
