@@ -111,6 +111,13 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
 {% endif %}
 
 {% comment %}
+  Food
+{% endcomment %}
+<p id="food">
+  <strong>Food:</strong> Lunch, coffee, and snacks for both days will be provided free of cost. (Yay!)
+</p>
+
+{% comment %}
   SPECIAL REQUIREMENTS
 
   Modify the block below if there are any special requirements.
