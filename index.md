@@ -12,9 +12,9 @@ startdate: 2019-01-15      # machine-readable start date for the workshop in YYY
 enddate: 2019-01-16        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Elias Ozolor", "Sateesh Peri"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Richard Tillett", "Gurlaz Kaur"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["perisateesh@nevada.unr.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["perisateesh@nevada.unr.edu", "eazadbakht@unr.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/UNR_Data_Carpentry_2019            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: "52275514471"    # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -46,13 +46,7 @@ eventbrite: "52275514471"    # optional: alphanumeric key for Eventbrite registr
 </iframe>
 {% endif %}
 
-<h4>This is the official website for upcoming Data Carpentry Genomics Workshop at UNR (January 15-16th, 2019). The target audience is learners (both under-graduate and graduate students) who have little to no prior computational experience, and the instructors put a priority on creating a friendly environment to empower researchers and enable data-driven discovery. Even those with some experience will benefit, as the goal is to teach not only how to do analyses, but how to manage the process to make it as automated and reproducible as possible. For instance, some of the topics that will be discussed in addition to the prescribed syllabus:
-
-    Project version control using Github
-    Cloud computing 
-    Data Documentation & Reproducibility 
-
-Space is limited and it will likely fill quickly. Lunch, snacks and coffee will be provided for both the days of the workshop. This workshop is supported by funding from UNR Libraries and NV-INBRE grants.</h4>
+<h4>This is the official website for the upcoming Data Carpentry Genomics Workshop at University of Nevada, Reno (January 15-16th, 2019). This workshop is free for attendees and is supported by funding from UNR Libraries and NV-INBRE.</h4>
 
 <h2 id="general">General Information</h2>
 
