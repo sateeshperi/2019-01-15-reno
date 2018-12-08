@@ -1,267 +1,38 @@
-# workshop-template
-
-This repository is [Software Carpentry][swc-site] and [Data Carpentry][dc-site]'s
-template for creating websites for workshops.
+Welcome to Data Carpentry Genomics Workshop at University of Nevada, Reno!
+===
 
-1.  Please *do not fork this repository directly on GitHub.*
-    Instead, please use GitHub's importer following [the instructions below](#creating-a-repository)
-    to copy this `workshop-template` repository and customize it for your workshop.
+This website contains materials for the [Data Carpentry Genomics Workshop at University of Nevada, Reno](https://sateeshperi.github.io/2019-01-15-reno/) two-day course (9:00 am-5:00pm), held on 15-16th January, 2019 at the [Mathewson-IGT Knowledge Center - 107](https://library.unr.edu/).
 
-2.  Please *do your work in your repository's `gh-pages` branch*,
-    since that is what is
-    [automatically published as a website by GitHub][github-project-pages].
+We are very excited to have you here and hope that we can get through a lot of material by the end of the workshop.
 
-3.  Once you are done, please also [let us know][email] the workshop URL. If this is a self-organised workshop, you should also [fill in the self-organized workshop form][self-organized-workshop-form] (if you have not already done so), so we can keep track of all workshops. We build the list of workshops on our websites from the data included in your `index.md` page. We can only do that if you [customize][customization] that page correctly *and* let us know the workshop URL.
+This workshop runs under a [Code of Conduct](code_of_conduct.html). Please respect it and be excellent to each other!
 
-If you run into problems,
-or have ideas about how to make this process simpler,
-please [get in touch](#getting-and-giving-help).
-The pages on [customizing your website][customization],
-the [FAQ][faq],
-and the [design notes][design] have more detail on what we do and why.
-And please note:
-if you are teaching Git,
-please [create a separate repository](#setting-up-a-separate-repository-for-learners)
-for your learners to practice in.
+Twitter hash tag: #DCUNR 
 
-## Creating a Repository
+Notes from the course: 
 
-1.  Log in to GitHub.
-    (If you do not have an account, you can quickly create one for free.)
-    You must be logged in for the remaining steps to work.
+[Hackmd.io](https://hackmd.io/7MqCeQo3RnqMDiZMZBXi7Q#)
 
-2.  Go to <a href="https://github.com/new/import" target="_blank">GitHub's importer</a>.
+## Instructors
 
-3.  Paste the url of this repo as the old repository to clone:
-    <https://github.com/carpentries/workshop-template>.
+* [Elias Oziolor](https://oziolor.wordpress.com/)
+* [Sateesh Peri](https://sateeshperi.github.io/)
 
-4.  Select the owner for your new repository.
-    (This will probably be you, but may instead be an organization you belong to.)
+This workshop incorporates materials from the [Analysis of Next Generation Sequencing or ANGUS](https://angus.readthedocs.io/en/2018/) and several nonmodel RNAseq workshops. We recommend you visit and explore these materials! ANGUS materials are taught at the [Data Intensive Biology Summer Institute or DIBSI](http://ivory.idyll.org/dibsi/) coordinated at UC Davis every summer by [Dr. Titus Brown](http://ivory.idyll.org/lab), which Elias and Sateesh assist with in their capacity as certified [Carpentry Instructors](https://software-carpentry.org/blog/2017/09/merger.html).
 
-5.  Choose a name for your workshop website repository.
-    This name should have the form `YYYY-MM-DD-site`,
-    e.g., `2016-12-01-miskatonic`,
-    where `YYYY-MM-DD` is the start date of the workshop.
+## Schedule in brief
 
-6.  Make sure the repository is public.
+**Day-1**
 
-7.  At this point, you should have a page like this:
 
-    ![](fig/using-github-import.png?raw=true)
 
-    You can now click "Begin Import".
-    When the process is done,
-    you will receive a message like
-    "Importing complete! Your new repository jules32/2015-07-01-miskatonic is ready."
-    and you can go to the new repository by clicking on the name.
+**Day-2**
 
-**Note:**
-some people have had intermittent errors during the import process,
-possibly because of the network timing out.
-If you experience a problem, please re-try;
-if the problem persists,
-please [get in touch](#getting-and-giving-help).
 
-## Customizing Your Website
+## Other info
 
-1.  Go into your newly-created repository,
-    which will be at `https://github.com/your_username/YYYY-MM-DD-site`.
-    For example,
-    if your username is `gvwilson`,
-    the repository's URL will be `https://github.com/gvwilson/2016-12-01-miskatonic`.
-
-3.  Ensure you are on the gh-pages branch by clicking on the branch under the drop 
-    down in the menu bar (see the note below):
-
-    ![](fig/select-gh-pages-branch.png?raw=true)
-
-3.  Edit the header of `index.md` to customize the list of instructors,
-    workshop venue, etc. 
-    You can do this in the browser by clicking on it in the file view on GitHub
-    and then selecting the pencil icon in the menu bar:
-
-    ![](fig/edit-index-file-menu-bar.png?raw=true)
-    
-    Editing hints are embedded in `index.md`,
-    and full instructions are in [the customization instructions][customization].
-    
-4.  Edit `_config.yml` to customize certain site-wide variables, such as: `carpentry` (to tell us which carpentry workshop this is), `title` (overall title for all pages), `workshop_repo` (the URL of the workshop repository on GitHub) and `workshop_site` (the repository's GitHub Pages URL).
-
-    Editing hints are embedded in `_config.yml`,
-    and full instructions are in [the customization instructions][customization].
-    
-5. Edit the `schedule.html` file to edit the schedule for your upcoming workshop. This file is located in the `_includes` directory, make sure to choose the one from the appropriate `dc` (Data Carpentry workshop), `lc` (Library Carpentry), or `sc` (Software Carpentry) subdirectory.
-
-6.  Alternatively,
-    if you are already familiar with Git,
-    you can clone the repository to your desktop,
-    edit `index.md`, `_config.yml`, and `schedule.html` there,
-    and push your changes back to the repository.
-
-    ~~~
-    git clone -b gh-pages https://github.com/your_username/YYYY-MM-DD-site
-    ~~~
-
-    You should specify `-b gh-pages` to checkout the gh-pages branch because the imported 
-    repository doesn't have a `master` branch.
-
-    In order to view your changes once you are done editing,
-    you must push to your GitHub repository:
-
-    ~~~
-    git push origin gh-pages
-    ~~~
-
-7.  When you are done editing,
-    go to the GitHub Pages URL for your workshop and preview your changes.
-    In the example above, this is `https://gvwilson.github.io/2016-12-01-miskatonic`.
-    The finished page should look [something like this](fig/completed-page.png?raw=true).
-
-8.  Optional: you can now change the README.md file in your website's repository, which contains these instructions, so that it contains a short description of your workshop and a link to the workshop website.
-
-9.  Optional: Add a link to your workshop website on the repository main page in the description/website section (look for the `Edit` button on the right to add).  
-
-**Note:**
-please do all of your work in your repository's `gh-pages` branch,
-since [GitHub automatically publishes that as a website][github-project-pages].
-
-**Note:**
-this template includes some files and directories that most workshops do not need,
-but which provide a standard place to put extra content if desired.
-See the [design notes][design] for more information about these.
-
-Further instructions are available in [the customization instructions][customization].
-This [FAQ][faq] includes a few extra tips (additions are always welcome)
-and these notes on [the background and design][design] of this template may help as well.
-
-## Checking Your Changes
-
-If you want to preview your changes on your own machine before publishing them on GitHub,
-you can do so as described below.
-
-1.  Install the software [described below](#installing-software).
-    This may require some work,
-    so feel free to preview by pushing to the website.
-
-2.  Run the command
-
-    ~~~
-    make serve
-    ~~~
-
-    and go to <http://0.0.0.0:4000> to preview your site.
-    You can also run this command by typing `make serve`
-    (assuming you have Make installed).
-
-3.  Run the command
-
-    ~~~
-    make workshop-check
-    ~~~
-
-    to check for a few common errors in your workshop's home page.
-    (You must have Python 3 installed to do this.)
-
-## (Optional) Linking to Your Page
-
-At the top of your repository on GitHub you'll see
-
-~~~
-No description, website, or topics provided. — Edit
-~~~
-
-Click 'Edit' and add:
-
-1.  A very brief description of your workshop in the "Description" box (e.g., "Miskatonic University workshop, Dec. 2016")
-
-2.  The URL for your workshop in the "Website" box (e.g., `https://gvwilson.github.io/2016-12-01-miskatonic`)
-
-This will help people find your website if they come to your repository's home page.
-
-## Creating Extra Pages
-
-In rare cases,
-you may want to add extra pages to your workshop website.
-You can do this by putting either Markdown or HTML pages in the website's root directory
-and styling them according to the instructions give in
-[the lesson template][lesson-example].
-If you do this,
-you *must* also edit `_config.yml` to set these three values:
-
-1.  `carpentry` is either "dc" (for Data Carpentry), "swc" (for Software Carpentry),
-    or "lc" (for Library Carpentry). This determines which logos are loaded.
-
-2.  `title` is the title of your workshop (typically the venue and date).
-
-3.  `email` is the contact email address for your workshop,
-    e.g., `gvwilson@miskatonic.edu`.
-
-Note: `carpentry` and `email` duplicate information that's in `index.md`,
-but there is no way to avoid this
-without requiring people to edit both files in the usual case
-where no extra pages are created.
-
-## Installing Software
-
-If you want to set up Jekyll
-so that you can preview changes on your own machine before pushing them to GitHub,
-you must install the software described below.
-(Note: Julian Thilo has written instructions for
-[installing Jekyll on Windows][jekyll-windows].)
-
-1.  **Ruby**.
-    This is included with Linux and macOS;
-    the simplest option on Windows is to use [RubyInstaller][ruby-installer].
-    You can test your installation by running `ruby --version`.
-    For more information,
-    see [the Ruby installation guidelines][ruby-install-guide].
-
-2.  **[RubyGems][rubygems]**
-    (the package manager for Ruby).
-    You can test your installation by running `gem --version`.
-
-3.  **[Jekyll][jekyll]**.
-    You can install this by running `gem install jekyll`.
-
-## Setting Up a Separate Repository for Learners
-
-If you are teaching Git,
-you should create a separate repository for learners to use in that lesson.
-You should not have them use the workshop website repository because:
-
-*   your workshop website repository contains many files
-    that most learners don't need to see during the lesson,
-    and
-
-*   you probably don't want to accidentally merge
-    a damaging pull request from a novice Git user
-    into your workshop's website while you are using it to teach.
-
-You can call this repository whatever you like,
-and add whatever content you need to it.
-
-## Getting and Giving Help
-
-We are committed to offering a pleasant setup experience for our learners and organizers.
-If you find bugs in our instructions,
-or would like to suggest improvements,
-please [file an issue][issues]
-or [mail us][email].
-
-[email]: mailto:team@carpentries.org
-[customization]: https://carpentries.github.io/workshop-template/customization/
-[dc-site]: http://datacarpentry.org
-[design]: https://carpentries.github.io/workshop-template/design/
-[faq]: https://carpentries.github.io/workshop-template/faq/
-[github-project-pages]: https://help.github.com/articles/creating-project-pages-manually/
-[importer]: https://github.com/new/import
-[issues]: https://github.com/carpentries/workshop-template/issues
-[jekyll-windows]: http://jekyll-windows.juthilo.com/
-[jekyll]: https://jekyllrb.com/
-[lesson-example]: https://carpentries.github.io/lesson-example/
-[pyyaml]: https://pypi.python.org/pypi/PyYAML
-[ruby-install-guide]: https://www.ruby-lang.org/en/downloads/
-[ruby-installer]: http://rubyinstaller.org/
-[rubygems]: https://rubygems.org/pages/download/
-[self-organized-workshop-form]: https://amy.software-carpentry.org/workshops/submit/
-[swc-site]: http://software-carpentry.org
+* These lessons are based on the original [Eel Pond Protocol](https://khmer-protocols.readthedocs.io/en/ctb/mrnaseq/index.html), then [edited in 2016](https://eel-pond.readthedocs.io/en/latest/) and [automated](https://github.com/dib-lab/eelpond) by Dr. Tessa Pierce.
+* Two other nonmodel RNAseq workshops: [DIBSI 2017](https://dibsi-rnaseq.readthedocs.io/en/latest/) and [SIO-BUG 2017](https://rnaseq-workshop-2017.readthedocs.io/en/latest/index.html)
+* [Backup files](backup.html), if something goes wrong
+* If you find that you would like more practice working on the command line, here is a [command-line bootcamp](http://rik.smith-unna.com/command_line_bootcamp/?id=yk822u2rpo). In addition, BASH training videos are freely available through the [NH-INBRE program, the UNH Bioinformatics Core facility](http://nhinbre.org/bioinformatics-modules/).
+* Source documents for these lessons can be found [on GitHub](https://github.com/WhiteheadLab/2018-setacna-rnaseq/).
