@@ -307,7 +307,7 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
 <p>
   For this workshop we will be using CyVerse Atmosphere cloud,
   so you need to register for 
-  <a href = "https://user.cyverse.org/register">CyVerse</a> to access their cloud during workshop. 
+  <a href = "https://user.cyverse.org/workshops/22/overview">CyVerse</a> to access their cloud during workshop. 
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
