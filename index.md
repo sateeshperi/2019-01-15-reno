@@ -11,7 +11,7 @@ humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2019-01-15      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-01-16        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Elias Ozolor", "Sateesh Peri"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Richard Tillett", "Gurlaz Kaur"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Richard Tillett", "Gurlaz Kaur", "Jeremiah Reyes", "Nina Chang", "Kyle Wang"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["perisateesh@nevada.unr.edu", "eazadbakht@unr.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/UNR_Data_Carpentry_2019            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -47,6 +47,8 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
 {% endif %}
 
 <h4>This is the official website for the upcoming Data Carpentry Genomics Workshop at University of Nevada, Reno (January 15-16th, 2019). This workshop is free for attendees and is supported by funding from UNR Libraries and NV-INBRE.</h4>
+
+<h4>Registrations for this workshop has closed.</h4>
 
 <h2 id="general">General Information</h2>
 
@@ -121,7 +123,7 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
   Food
 {% endcomment %}
 <p id="howtoapply">
-  <strong>How To Apply:</strong> Space is limited for this workshop. Please fill out this <a href="http://unr.libsurveys.com/datacarpentryapp">application form</a>. Applications are due by Friday, December 21, 2018. Shortly after the registrations close, we will notify you as to whether you’ve been accepted.
+  <strong>Registrations for the workshop have closed</strong> The registrations and wait-list for this workshop is currently full. Wait-listed candidates will be informed if there are any drop-outs by January 6th 2019.
 </p>
 
 {% comment %}
