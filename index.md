@@ -48,7 +48,7 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
 
 <h4>This is the official website for the upcoming Data Carpentry Genomics Workshop at University of Nevada, Reno (January 15-16th, 2019). This workshop is free for attendees and is supported by funding from UNR Libraries and NV-INBRE.</h4>
 
-<h4>Registrations for this workshop has closed.</h4>
+<h4><strong>Registrations for this workshop have closed.</strong></h4>
 
 <h2 id="general">General Information</h2>
 
@@ -123,7 +123,7 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
   Food
 {% endcomment %}
 <p id="howtoapply">
-  <strong>Registrations for the workshop have closed</strong> The registrations and wait-list for this workshop is currently full. Wait-listed candidates will be informed if there are any drop-outs by January 6th 2019.
+  <strong>Registrations for the workshop have closed.</strong> The registrations and wait-list for this workshop are currently full. Wait-listed candidates will be informed if there are any drop-outs by January 6th 2019.
 </p>
 
 {% comment %}
